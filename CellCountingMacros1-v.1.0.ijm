@@ -3,6 +3,7 @@ macro "cell_count--Maxima" {
 //show prompt for selection of source directory
 dir = getDirectory("Choose source directory");
 list = getFileList(dir);	//get the file list
+resultsFileName = "Cell counting results (ccm1).txt"
 
 setBatchMode(true);	//hide all the details from user
 //process every file...
@@ -28,5 +29,5 @@ String.copyResults();
 setBatchMode(false);
 
 //create a text file with counting results
-saveAs("Results",dir+"Cell counting results.txt");
+saveAs("Results",dir+resultsFileName);
 }

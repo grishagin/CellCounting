@@ -3,6 +3,7 @@ macro "Cell_count--Threshold" {
 //show prompt for selection of source directory
 dir = getDirectory("Choose source directory"); 
 list = getFileList(dir);	//get the file list
+resultsFileName = "Cell counting results (ccm2).txt"
 
 File.makeDirectory(dir+"Processed_images"); //make directory to store processed images
 
@@ -43,8 +44,8 @@ setBatchMode(true);	//hide all the details from user
 			String.resetBuffer;	//reset string buffer
 			for (i=0; i<lines.length; i++) {
 				if (i==0){
-					File.saveString("",dir+"Cell counting results.txt");
-					f = File.open(dir+"Cell counting results.txt");
+					File.saveString("",dir+resultsFileName);
+					f = File.open(dir+resultsFileName);
 				}
 				labels = split(lines[i], "\t");
 				print(f,labels[1]);
@@ -55,7 +56,7 @@ setBatchMode(true);	//hide all the details from user
 			
 			
 				//open the summary file, close the Summary window
-			open(dir+"Cell counting results.txt");
+			open(dir+resultsFileName);
 			selectWindow("Summary");
 			run("Close");
 			String.copy(String.buffer);	//copy all values into the clipboard
