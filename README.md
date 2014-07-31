@@ -27,10 +27,10 @@ Plugins > CellCountingMacros1-v.1.0
 Plugins > CellCountingMacros2-v.1.0
 6. The plugin will prompt you for a folder containing the images to be analyzed.
 7. Output:
-•	Macros 1:
-a. File “Cell counting results.txt” in the folder with the images analyzed.
-b. Copy of the results in the system clipboard.
-•	Macros 2:
-a. Folder with the processed images in in the folder with the analyzed images.
-b. File “Cell counting results.txt” in the folder with the analyzed images.
-c. Copy of the results in the system clipboard.
+  +	Macros 1:
+    + File “Cell counting results.txt” in the folder with the images analyzed.
+    + Copy of the results in the system clipboard.
+  +	Macros 2:
+    + Folder with the processed images in in the folder with the analyzed images.
+    + File “Cell counting results.txt” in the folder with the analyzed images.
+    + Copy of the results in the system clipboard.
