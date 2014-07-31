@@ -16,7 +16,7 @@ http://rsbweb.nih.gov/ij/download.html
 2. Download the plugins:  
 https://github.com/grishagin/CellCounting/archive/master.zip
 3. Place two files  
-    _CellCountingMacros1-v.1.0.ijm_
+    _CellCountingMacros1-v.1.0.ijm_  
     _CellCountingMacros2-v.1.0.ijm_  
 into the ImageJ plugins directory:   
 Windows   C:\Program Files\ImageJ\plugins  
