@@ -34,3 +34,4 @@ Mac OS X	/Applications/ImageJ/Plugins
     + Folder with the processed images in the folder with the analyzed images.
     + File “Cell counting results (ccm2).txt” in the folder with the analyzed images.
     + Copy of the results in the system clipboard.
+8. Normalize the data via multiplying them by (a×a)/(X×Y), where a – side of the square manual cell counting area in your image (px); X×Y – resolution of your camera (px).
