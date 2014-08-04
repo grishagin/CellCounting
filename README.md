@@ -16,15 +16,15 @@ http://rsbweb.nih.gov/ij/download.html
 2. Download the plugins:  
 https://github.com/grishagin/CellCounting/archive/master.zip
 3. Place two files  
-    _CellCountingMacros1-v.1.0.ijm_  
-    _CellCountingMacros2-v.1.0.ijm_  
+    _CellCountingMacro1-v.1.0.ijm_  
+    _CellCountingMacro2-v.1.0.ijm_  
 into the ImageJ plugins directory:   
 Windows   C:\Program Files\ImageJ\plugins  
 Mac OS X	/Applications/ImageJ/Plugins  
 4. Launch ImageJ.
 5. To launch either Macros 1 or Macros 2, follow:  
-    _Plugins_ > _CellCountingMacros1-v.1.0_  
-    _Plugins_ > _CellCountingMacros2-v.1.0_  
+    _Plugins_ > _CellCountingMacro1-v.1.0_  
+    _Plugins_ > _CellCountingMacro2-v.1.0_  
 6. The plugin will prompt you for a folder containing the images to be analyzed.
 7. Output:
   +	Macros 1:
