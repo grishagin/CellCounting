@@ -22,15 +22,15 @@ into the ImageJ plugins directory:
 Windows   C:\Program Files\ImageJ\plugins  
 Mac OS X	/Applications/ImageJ/Plugins  
 4. Launch ImageJ.
-5. To launch either Macros 1 or Macros 2, follow:  
+5. To launch either Macro 1 or Macro 2, follow:  
     _Plugins_ > _CellCountingMacro1-v.1.0_  
     _Plugins_ > _CellCountingMacro2-v.1.0_  
 6. The plugin will prompt you for a folder containing the images to be analyzed.
 7. Output:
-  +	Macros 1:
+  +	Macro 1:
     + File “Cell counting results (ccm1).txt” in the folder with the images analyzed.
     + Copy of the results in the system clipboard.
-  +	Macros 2:
+  +	Macro 2:
     + Folder with the processed images in the folder with the analyzed images.
     + File “Cell counting results (ccm2).txt” in the folder with the analyzed images.
     + Copy of the results in the system clipboard.
