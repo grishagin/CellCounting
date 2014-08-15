@@ -1,6 +1,6 @@
 ##Automatic Cell Counting with ImageJ
 ###Description
-This repository containes two ImageJ plugins to count mammalian cells in the pictures of cell suspension in a standard hemacytometer.
+This repository containes two ImageJ plugins to count mammalian cells in the pictures of cell suspension in a standard hemocytometer.
 
 The following items are included:
 
@@ -13,20 +13,20 @@ The following items are included:
 ###Instructions
 1. Download and install ImageJ:  
 http://rsbweb.nih.gov/ij/download.html
-2. Download the plugins:  
+2. Download the archive:  
 https://github.com/grishagin/CellCounting/archive/master.zip
-3. Place two files  
+3. Extract the following two files from the archive:  
     _CellCountingMacro1-v.1.0.ijm_  
     _CellCountingMacro2-v.1.0.ijm_  
-into the ImageJ plugins directory:   
+4. Place these files into the ImageJ plugins directory:  
 Windows   C:\Program Files\ImageJ\plugins  
 Mac OS X	/Applications/ImageJ/Plugins  
-4. Launch ImageJ.
-5. To launch either Macro 1 or Macro 2, follow:  
+5. Launch ImageJ.
+6. To launch either Macro 1 or Macro 2, follow:  
     _Plugins_ > _CellCountingMacro1-v.1.0_  
     _Plugins_ > _CellCountingMacro2-v.1.0_  
-6. The plugin will prompt you for a folder containing the images to be analyzed.
-7. Output:
+7. The plugin will prompt you for a **folder** containing the images to be analyzed.
+8. Output:
   +	Macro 1:
     + File “Cell counting results (ccm1).txt” in the folder with the images analyzed.
     + Copy of the results in the system clipboard.
@@ -34,4 +34,4 @@ Mac OS X	/Applications/ImageJ/Plugins
     + Folder with the processed images in the folder with the analyzed images.
     + File “Cell counting results (ccm2).txt” in the folder with the analyzed images.
     + Copy of the results in the system clipboard.
-8. Normalize the data via multiplying them by (a×a)/(X×Y), where a – side of the square manual cell counting area in your image (px); X×Y – resolution of your camera (px).
+9. Normalize the data via multiplying them by (a×a)/(X×Y), where a – side of the square manual cell counting area in your image (px); X×Y – resolution of your camera (px).
