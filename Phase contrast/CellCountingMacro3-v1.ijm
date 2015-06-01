@@ -22,7 +22,7 @@ setBatchMode(true);	//hide all the details from user
 			setAutoThreshold("Intermodes dark");  //run("Threshold...")
 			
 			run("Convert to Mask");	//convert to mask and analyze
-			run("Analyze Particles...", "size=50-1000 circularity=0.50-1.00 show=Outlines clear include summarize");
+			run("Analyze Particles...", "size=30-1000 circularity=0.50-1.00 show=Outlines clear include summarize");
 
 				// save the file in a new directory under a new name and close all windows
 			saveAs("Jpeg", dir+"Processed_images"+File.separator+"Analysis_of_"+fileNoExt[0]);  
