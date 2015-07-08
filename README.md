@@ -1,6 +1,8 @@
 ##Automatic Cell Counting with ImageJ
 ###Description
-This repository containes two ImageJ plugins to count mammalian cells in the pictures of cell suspension in a standard hemocytometer.
+This repository containes two ImageJ plugins to count mammalian cells in the pictures of cell suspension in a standard hemocytometer.  
+Bright-field plugins detect ALL cells regardless of their alive/dead status.  
+Phase contrast plugin detects only live cells (obviously in suspension with trypan blue).
 
 The following items are included:
 
