@@ -1,23 +1,29 @@
 ##Automatic Cell Counting with ImageJ
 ###Description
-This repository containes two ImageJ plugins to count mammalian cells in the pictures of cell suspension in a standard hemocytometer.  
-Bright-field plugins detect ALL cells regardless of their alive/dead status.  
+This repository containes four ImageJ plugins to count mammalian cells:  
++ in the pictures of cell suspension in a standard hemocytometer.   
+Bright-field plugins detect ALL cells regardless of their alive/dead status.    
 Phase contrast plugin detects only live cells (obviously in suspension with trypan blue).
++ in the pictures of differently stained cells.
 
 The following items are included:
 
 1. README.md  (this file)
 2. LICENSE  (GNU GENERAL PUBLIC LICENSE)
-3. Bright-field (folder)
-	- sample_images_(1x dilution)  (folder with sample images)
-	- CellCounting_Processing_Template-v1.xltx
-	- CellCountingMacro1-v1.ijm    (plugin #1)
-	- CellCountingMacro2-v1.ijm    (plugin #2)
-	- CellCountingMacro2-v1-01.ijm (plugin #2 v1-01)  
-4. Phase contrast (folder)
-	- sample_images_(2x dilution)  (folder with sample images)
-	- CellCounting_Processing_Template-v1-1.xltx
-	- CellCountingMacro3-v1.ijm    (plugin #3)
+3. Multicolor
+	- ccm4_sample_images  (folder with sample images)
+	- CellCountingMacro4colored-v1.ijm    (plugin #4)
+4. Trypan Blue Exclusion  
+	+ Bright-field (folder)
+		- sample_images_(1x dilution)  (folder with sample images)    
+		- CellCounting_Processing_Template-v1.xltx   
+		- CellCountingMacro1-v1.ijm    (plugin #1)   
+		- CellCountingMacro2-v1.ijm    (plugin #2)   
+		- CellCountingMacro2-v1-01.ijm (plugin #2 v1-01)      
+	+ Phase contrast (folder)   
+		- sample_images_(2x dilution)  (folder with sample images)   
+		- CellCounting_Processing_Template-v1-1.xltx   
+		- CellCountingMacro3-v1.ijm    (plugin #3)   
 
 ###Instructions
 1. Download and install ImageJ:  
@@ -49,4 +55,8 @@ Mac OS X	/Applications/ImageJ/Plugins
     + Folder with the processed images in the folder with the analyzed images.
     + File “Cell counting results (ccm3).txt” in the folder with the analyzed images.
     + Copy of the results in the system clipboard.
-9. Normalize the data via multiplying them by (a×a)/(X×Y), where a – side of the square manual cell counting area in your image (px); X×Y – resolution of your camera (px).
+ +	Macro 4:
+    + Folder with the processed images in the folder with the analyzed images.
+    + File “Cell counting results (ccm4-color).txt” in the folder with the analyzed images.
+    + Copy of the results in the system clipboard.
+9. For Trypan Blue Exclusion macros, normalize the data via multiplying them by (a×a)/(X×Y), where a – side of the square manual cell counting area in your image (px); X×Y – resolution of your camera (px).
