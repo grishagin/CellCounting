@@ -1,5 +1,5 @@
-##Automatic Cell Counting with ImageJ
-###Description
+## Automatic Cell Counting with ImageJ
+### Description
 This repository containes four ImageJ plugins to count mammalian cells:  
 + in the pictures of cell suspension in a standard hemocytometer.   
 Bright-field plugins detect ALL cells regardless of their alive/dead status.    
@@ -25,7 +25,7 @@ The following items are included:
 		- CellCounting_Processing_Template-v1-1.xltx   
 		- CellCountingMacro3-v1.ijm    (plugin #3)   
 
-###Instructions
+### Instructions
 1. Download and install ImageJ:  
 http://rsbweb.nih.gov/ij/download.html
 2. Download and unpack the archive with the files:  
