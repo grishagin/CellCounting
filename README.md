@@ -30,8 +30,10 @@ The following items are included:
 0. Here's a **[VIDEO](https://youtu.be/0X3AuflpKUM)**.
 1. **[DOWNLOAD](http://rsbweb.nih.gov/ij/download.html)** and install ImageJ.  
 2. Create a directory (for example, `Cell Counting`) in the ImageJ plugins directory:  
-Windows		`C:\Program Files\ImageJ\plugins`  
-Mac OS X	`/Applications/ImageJ/Plugins`  
+	+ Windows  
+	```C:\Program Files\ImageJ\plugins```  
+	+ Mac OS X  
+	`/Applications/ImageJ/Plugins`  
 3. **[DOWNLOAD](https://github.com/grishagin/CellCounting/archive/master.zip)** and unpack the archive with the files:  
 4. Extract the _**.ijm**_ files from the archive, and place them into the directory you created.   
 5. Launch ImageJ.
@@ -50,7 +52,7 @@ Mac OS X	`/Applications/ImageJ/Plugins`
  		+ Folder with the processed images in the folder with the analyzed images.
 		+ File “Cell counting results (PhaseContrast).txt” in the folder with the analyzed images.
 		+ Copy of the results in the system clipboard.
- 	+ _Multicolor:
+ 	+ _Multicolor_:
 		+ Folder with the processed images in the folder with the analyzed images.
  		+ File “Cell counting results (Multicolor).txt” in the folder with the analyzed images.
 		+ Copy of the results in the system clipboard.
